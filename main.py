@@ -10,7 +10,7 @@ def count_words():
     for words in text.split():
 
         if words in count_words:
-            count_words[words] +=1 
+            count_words[words] += 1 
         else:
             count_words[words] = 1
     return count_words
